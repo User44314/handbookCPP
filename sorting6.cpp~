@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+#include <vector> 
+
+int main()
+{
+  std::vector<string> a = "ssssdddff";
+  std::vector<string> b = "erfeddd";
+  bool comp(string a, string b) {
+    if (a.size() != b.size()) return a.size() < b.size();
+    return a < b;
+  }
